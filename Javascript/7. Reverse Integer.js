@@ -10,7 +10,7 @@ var reverse = function (x) {
     let result = ''
     let xStr = x.toString()
     let resultStr = result + xStr.split('').reverse().join('')
-    if (resultStr.includes('-')) resultStr = '-' + resultStr.replace(/-/g, '')
+    if (resultStr.includes('-')) resultStr = '-' + resultStr.replace('-', '')
 
     result = parseInt(resultStr)
 
