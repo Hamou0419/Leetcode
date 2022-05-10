@@ -26,9 +26,3 @@ var threeSum = function (nums) {
     }
     return results
 };
-
-(async function () {
-    let nums = [-1, 0, 1, 2, -1, -4]
-    let result = threeSum(nums)
-    console.log(result)
-}())
